@@ -123,8 +123,6 @@
 - (void)setCellImage:(UIImage *)cellImage
 {
 	[self.zoomableView setImage:cellImage];
-	
-	[self setNeedsUpdateConstraints];
 }
 
 
